@@ -8,3 +8,10 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Room monitor artifacts
+room_monitor/logs/*
+!room_monitor/logs/.gitkeep
+room_monitor/snapshots/*
+!room_monitor/snapshots/.gitkeep
+*.pt
