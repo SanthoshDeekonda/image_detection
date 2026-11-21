@@ -26,7 +26,7 @@ DOOR_LINE_END = (0.50, 0.90)
 ENTRY_IS_POSITIVE = True
 
 # People. Ultralytics ships ByteTrack as bytetrack.yaml.
-YOLO_MODEL = "yolo11n-pose.pt"
+YOLO_MODEL = "yolo11n-pose.pt" # optional model yolo26n-pose.pt
 TRACKER = "bytetrack.yaml"
 CONFIDENCE = 0.40
 KEYPOINT_CONF = 0.30
